@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # 读图
-img = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/water.jpg', 1)
+img = cv2.imread('../../Picture/water.jpg', 1)
 
 # 展示图
 cv2.imshow('src', img)

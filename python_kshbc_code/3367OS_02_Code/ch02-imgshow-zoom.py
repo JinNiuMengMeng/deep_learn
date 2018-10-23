@@ -10,7 +10,7 @@ bug = scipy.misc.imread('stinkbug1.png')
 
 # if you want to inspect the shape of the loaded image
 # uncomment following line
-#print bug.shape
+#print(bug.shape)
 
 # convert to gray
 bug = bug[:,:,0]

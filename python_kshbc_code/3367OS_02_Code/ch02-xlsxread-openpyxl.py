@@ -14,8 +14,8 @@ for r in ws.rows:
         col.append(c.value)
     dataset.append(col)
 
-from pprint import pprint
+from pprint(import pprint)
 
-pprint(dataset)
+pprint(dataset))
 
 

@@ -10,7 +10,7 @@ for entry in json_obj:
     try:
         repos.add(entry['repository']['url'])
     except KeyError as e:
-        print "No key %s. Skipping..." % (e)
+        print("No key %s. Skipping..." % (e))
 
-from pprint import pprint 
-pprint(repos)
+from pprint(import pprint )
+pprint(repos))

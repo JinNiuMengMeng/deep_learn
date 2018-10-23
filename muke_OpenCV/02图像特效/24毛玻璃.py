@@ -3,7 +3,7 @@ import numpy as np
 import random
 
 # random.random()  # 返回随机生成的一个实数，它在[0,1)范围内。
-img = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/girl.png', 1)
+img = cv2.imread('../../Picture/girl.png', 1)
 imgInfo = img.shape
 height = imgInfo[0]
 width = imgInfo[1]

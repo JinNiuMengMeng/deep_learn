@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/water.jpg', 1)
+img = cv2.imread('../../Picture/water.jpg', 1)
 imgInfo = img.shape
 print("img.shape:", imgInfo)  # 输出图片的[宽度, 高度, 图片的颜色组成方式]
 cv2.imshow("img", img)

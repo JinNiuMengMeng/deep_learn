@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import csv
+import sys
 
 filename = 'ch02-data.csv'
 
@@ -16,12 +17,12 @@ try:
                 data.append(row)
             c += 1
 except csv.Error as e:
-    print "Error reading CSV file at line %s: %s" % (reader.line_num, e)
+    print("Error reading CSV file at line %s: %s" % (reader.line_num, e))
     sys.exit(-1)
 
 if header:
-    print header
-    print '=================='
+    print(header)
+    print('==================')
 
 for datarow in data:
-    print datarow
+    print(datarow)

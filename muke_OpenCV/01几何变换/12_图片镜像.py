@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread("/home/ubuntu/PycharmProjects/tf_cv/pic/water.png", 1)
+img = cv2.imread("../../Picture/water.png", 1)
 imgInfo = img.shape
 print("imgInfo.shape:", imgInfo)
 height = imgInfo[0]

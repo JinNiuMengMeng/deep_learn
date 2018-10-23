@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/girl.png', 1)
+img = cv2.imread('../../Picture/girl.png', 1)
 imgInfo = img.shape
 height = imgInfo[0]
 width = imgInfo[1]

@@ -1,10 +1,10 @@
 import numpy as np
 import cv2
 
-img = cv2.imread("/home/ubuntu/PycharmProjects/tf_cv/pic/girl.png", 1)
+img = cv2.imread("../../Picture/girl.png", 1)
 
 # 方法一
-img0 = cv2.imread("/home/ubuntu/PycharmProjects/tf_cv/pic/girl.png", 0)
+img0 = cv2.imread("../../Picture/girl.png", 0)
 cv2.imshow("img0", img0)
 cv2.imshow("img1", img)
 imgInfo0 = img0.shape

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 示例一
-img1 = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/water.jpg', 1)
+img1 = cv2.imread('../../Picture/water.jpg', 1)
 img1Info = img1.shape
 print("img.shape:", img1Info)  # 输出图片的[宽度, 高度, 图片的颜色组成方式]
 cv2.imshow("img1", img1)
@@ -24,7 +24,7 @@ dst1 = cv2.Canny(imgG1, 50, 50)
 cv2.imshow("dst1", dst1)
 
 # 示例二
-img2 = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/girl.png', 1)
+img2 = cv2.imread('../../Picture/girl.png', 1)
 img2Info = img2.shape
 print("img.shape:", img2Info)  # 输出图片的[宽度, 高度, 图片的颜色组成方式]
 cv2.imshow("img2", img2)
@@ -39,7 +39,7 @@ cv2.imshow("dst2", dst2)
 # 示例三(源码形式)
 import math
 
-img3 = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/sea.png', 1)
+img3 = cv2.imread('../../Picture/sea.png', 1)
 img3Info = img3.shape
 height3 = img3Info[0]
 width3 = img3Info[1]

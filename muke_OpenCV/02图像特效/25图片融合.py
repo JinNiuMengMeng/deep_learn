@@ -1,12 +1,12 @@
 import cv2
 import numpy as np
 
-img1 = cv2.imread('/home/ubuntu/PycharmProjects/tf_cv/pic/girl.png', 1)
+img1 = cv2.imread('../../Picture/girl.png', 1)
 imgInfo = img1.shape
 height = imgInfo[0]
 width = imgInfo[1]
 print("img1.shape:", imgInfo)
-img2 = cv2.imread("/home/ubuntu/PycharmProjects/tf_cv/pic/daimggirl.jpg", 1)
+img2 = cv2.imread("../../Picture/daimggirl.jpg", 1)
 img2Info = img2.shape
 print("img2.shape:", img2.shape)
 # 将图片img2缩小一倍

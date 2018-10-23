@@ -41,4 +41,4 @@ with tf.Session() as sess:
     print("sess.run(dataCopy):", sess.run(dataCopy))  # 运行33行的运算
     print("dataCopy.eval():", dataCopy.eval())    # 再次运行33行的运算
     print("tf.get_default_session():", tf.get_default_session().run(dataCopy))    # 再次运行33行的运算
-print("end...")
+print("end..")

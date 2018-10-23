@@ -13,4 +13,4 @@ F3 = F2 + 4
 
 for r in range(ROWS):
     t = ''.join(random.sample(SAMPLE,len(SAMPLE)))
-    print t[0:F1], t[F1:F2], t[F2:F3]
+    print(t[0:F1], t[F1:F2], t[F2:F3])

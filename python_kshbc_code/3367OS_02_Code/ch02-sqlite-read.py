@@ -2,7 +2,7 @@ import sqlite3
 import sys
 
 if len(sys.argv) != 2:
-    print "Please specify database file."
+    print("Please specify database file.")
     sys.exit(1)
 
 db = sys.argv[1]
@@ -21,10 +21,10 @@ try:
         # extract column names
 
         col_names = [cn[0] for cn in cur.description] 
-        print "%10s %30s %10s" % tuple(col_names)
-        print "="*(10+1+30+1+10)
+        print("%10s %30s %10s" % tuple(col_names))
+        print("="*(10+1+30+1+10))
 
         for row in resultset:
-            print "%10s %30s %10s" % row
+            print("%10s %30s %10s" % row)
 except sqlite3.Error as err:
-    print "[ERROR]:", err
+    print("[ERROR]:", err)
