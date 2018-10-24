@@ -1,9 +1,6 @@
 import numpy as np
 import cv2
-import os
 
-proPath = os.path.dirname(__file__)
-print(proPath)
 img = cv2.imread("../../Picture/water.png")
 imgInfo = img.shape
 height = imgInfo[0]

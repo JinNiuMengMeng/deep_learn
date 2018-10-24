@@ -1,5 +1,6 @@
 import tensorflow as tf
-import os 
+import os
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # 定义一个变量 x
@@ -15,6 +16,6 @@ add = tf.add(x, sub)
 init = tf.global_variables_initializer()
 
 with tf.Session() as sess:
-	sess.run(init) # 激活变量
-	print(sess.run(sub))
-	print(sess.run(add))
+    sess.run(init)  # 激活变量
+    print(sess.run(sub))
+    print(sess.run(add))

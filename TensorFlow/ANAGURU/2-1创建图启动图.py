@@ -1,5 +1,6 @@
 import tensorflow as tf
-import os 
+import os
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # 创建一个常量op
@@ -21,5 +22,5 @@ sess1.close()
 
 # 方法二
 with tf.Session() as sess2:
-	result2 = sess2.run(product)
-	print(result2)
+    result2 = sess2.run(product)
+    print(result2)
