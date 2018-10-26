@@ -16,7 +16,7 @@ print(s2)
 
 s3 = Series({'语文': 150, '数学': 150, '英语': 150, '理综': 300})
 print(s3)
-print('** ' * 20)
+print('--- ' * 20)
 
 ss = Series(np.random.random(10), index=list('abcdefghig'))
 # 显示索引

@@ -3,7 +3,7 @@ import numpy as np
 from numpy.fft import fft, ifft
 from PIL import Image
 
-cat = Image.open('/home/ubuntu/Pictures/cat.png')
+cat = Image.open('../../Picture/sea.png')
 # cat.show()
 
 

@@ -24,6 +24,9 @@ print('b1 + b2:', b1 + b2)  # b1 有两行三列， b2 只有一行， 维度不
 
 b3 = np.arange(3).reshape((3, 1))  # np.arange(3)生成的数据是一行三列， 使用reshape方法将该列数据转换为一列三行
 b4 = np.arange(3)
+print('-- --' * 3)
+print('b3:', b3)
+print('b4:', b4)
 print('b3 + b4:', b3 + b4)  # 自动将b3与b4补全为三行三列数据
 
 b5 = np.ones((4, 1))
