@@ -31,7 +31,11 @@ ax3.plot(x3, x3 / 2, label="slow")
 # 'lower center': 8,
 # 'upper center': 9,
 # 'center': 10,
-ax3.legend(loc="right")
+
+# ax3.legend(loc="right")
+# ax3.legend(loc=(-0.2, 1))
+# ax3.legend(loc=(0.5, 1))
+ax3.legend(loc=(1, 0))
 
 # 方法二
 ax2 = plt.subplot(1, 3, 1)
